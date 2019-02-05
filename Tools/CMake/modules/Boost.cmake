@@ -12,4 +12,4 @@ if(WIN64)
 endif()
 
 install(DIRECTORY "${SDK_DIR}/boost/boost" DESTINATION include/SDKs/boost)
-install(FILES "${CMAKE_CURRENT_LIST_DIR}/BoostConfig.cmake" DESTINATION share/cmake)
+install(FILES "${CMAKE_CURRENT_LIST_DIR}/boost-config.cmake" DESTINATION share/cmake)
